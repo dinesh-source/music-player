@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Music Player</title>
+  </head>
+  <body style="background-color:black">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img id="image" src="https://img.etimg.com/thumb/msid-81525531,width-650,imgsize-622277,,resizemode-4,quality-100/music_thinkstockphotos.jpg" width="305" height="200" alt=""><strong
+          style=" font-family: Georgia, serif', cursive; font-size: 30px; position:relative; top:2px;"></style>&nbsp&nbspMusic Player</strong><br />
+      </a>
+      
+      
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          
+         
+         
+          
+        </ul>
+  
+        <ul class="navbar-nav mr-auto">
+          
+        </ul>
+  
+  
+      </div>
+    </nav>
+  
+    <br>
+    <div class="play" style="background-color: rgb(215, 228, 247); height: 70px;">
+      <button class="playall" style="font-size: 20px; font-family: Comic Sans MS;box-sizing: border-box; background-color: rgb(3, 43, 61); border-radius: 10px; position:relative; padding:10px 10px; left:600px; top:7px;"><a href="song description/playallsongs.html" style="color: #eff3f5; text-decoration: none;">Play All Songs</a></button>
+
+    </div>
+
+
+
+
+
+
+
+
+    <div class="music-container" id="music-container">
+      <div class="music-info">
+        <h4 id="title"></h4>
+        <div class="progress-container" id="progress-container">
+          <div class="progress" id="progress"></div>
+        </div>
+      </div>
+
+      <audio src="music/gullyboy.mp3" id="audio"></audio>
+
+      <div class="img-container">
+        <img src="images/nofear.jpg" alt="music-cover" id="cover" />
+      </div>
+      <div class="navigation">
+        <button id="prev" class="action-btn">
+          <i class="fas fa-backward"></i>
+        </button>
+        <button id="play" class="action-btn action-btn-big">
+          <i class="fas fa-play"></i>
+        </button>
+        <button id="next" class="action-btn">
+          <i class="fas fa-forward"></i>
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
